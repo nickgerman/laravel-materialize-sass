@@ -1,7 +1,7 @@
 {
     "name": "qntm/laravel-materialize-sass",
     "description": "Add Materialize CSS Framework Source to Laravel",
-    "keywords": ["Materialize", "CSS", "Material Design", "laravel", "CSS Framework", "sass"],
+    "keywords": ["sass", "materialize", "css", "material design", "laravel", "css framework"],
     "license": "MIT",
     "require": {
         "php": ">=5.4.0",
