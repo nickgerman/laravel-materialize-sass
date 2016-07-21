@@ -15,7 +15,7 @@ class MaterializeSassServiceProvider extends ServiceProvider
             __DIR__ . '/../assets/js/bin' => public_path('materialize/js'),
         ], 'materializesass');
         $this->publishes([
-            __DIR__ . '/../assets/fonts' => public_patch('materialize/fonts')
+            __DIR__ . '/../assets/fonts' => public_path('materialize/fonts')
         ], 'materializesass');
         $this->publishes([
             __DIR__ . '/../assets/sass' => resource_path('assets/sass/materialize')
