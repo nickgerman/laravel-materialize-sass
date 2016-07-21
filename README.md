@@ -43,10 +43,12 @@ You can re-publish the assets automatically when composer updated the package:
 
 ## Usage
 
-There are differents methods to include Materialize Sass JS assets:
+To add in the materialize JS and Jquery, place this just before the closing of the head tag.
 
-* **include_full()**
+* **includeMaterialize()**
 ```php
+    ...
     {!! MaterializeSass::includeMaterialize($minified) !!}
+    </head>
 ```
 Where ```$minified = true``` the minified version of js will be added, otherwise the full version will be added.  Default behaviour if it is not passed in is ```$minified = true```
