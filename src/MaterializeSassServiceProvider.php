@@ -21,7 +21,7 @@ class MaterializeSassServiceProvider extends ServiceProvider
             __DIR__ . '/../assets/sass' => resource_path('assets/sass/materialize')
         ], 'materializesass');
         $this->registerMaterializeSassBuilder();
-        $this->app->alias('materialize-sass', 'qntm\LaravelMaterializeSass\MaterializeSassBuilder');
+        $this->app->alias('MaterializeSass', 'Qntm\LaravelMaterializeSass\MaterializeSassBuilder');
     }
 
     protected function registerMaterializeSassBuilder()

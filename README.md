@@ -17,7 +17,7 @@ This plugin also places the javascript in public/js/materialize/ directory.
 
 * Add Facade to the aliases array in config/app.php
 ```php
-	'MaterializeSass' => Qntm\LaravelMaterializeSass\MaterializeSass::class,
+	'MaterializeSass' => Qntm\LaravelMaterializeSass\MaterializeSassBuilder::class,
 ```
 
 *  Then publish the package's assets to public folder:
