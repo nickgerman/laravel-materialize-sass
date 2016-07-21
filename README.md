@@ -1,6 +1,6 @@
 # laravel-materialize-sass
 
-This plugin installs the [Materialize CSS](http://materializecss.com/) into the resources/assets/sass/materialize folder of your assets.
+This plugin installs the [Materialize CSS](http://materializecss.com/) source into the resources/assets/sass/materialize folder of your assets.
 This plugin also places the javascript in public/js/materialize/ directory.
 
 ## Installation
