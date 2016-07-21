@@ -24,7 +24,7 @@ class MaterializeSassServiceProvider extends ServiceProvider
         $this->app->alias('materialize-sass', 'qntm\LaravelMaterializeSass\MaterializeSassBuilder');
     }
 
-    protected function registerMaterializeCSSBuilder()
+    protected function registerMaterializeSassBuilder()
     {
         $this->app->singleton('materialize-sass', function ($app) {
             return new MaterializeSassBuilder($app['url']);
