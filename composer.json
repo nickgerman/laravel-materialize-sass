@@ -1,0 +1,22 @@
+{
+    "name": "qntm/laravel-materialize-sass",
+    "description": "Add Materialize CSS Framework Source to Laravel",
+    "keywords": ["Materialize", "CSS", "Material Design", "laravel", "CSS Framework", "sass"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.*"
+    },
+    "authors": [
+        {
+            "name": "Nick",
+            "email": "apps.inundated@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Qntm\\LaravelMaterializeSass\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
